@@ -1,0 +1,31 @@
+#+author: Rafael Alcantara
+#+email: rafaelca10@al.insper.edu.br
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+options: toc:t email:t date:nil num:nil timestamp:nil
+
+#+ATTR_HTML: :width 150px
+[[./images/profile.jpg]]
+* About
+I am a fourth year PhD student in Business Economics at
+[[https://www.insper.edu.br/en/][Insper]] working with [[https://hedibert.org/][Dr. Hedibert Lopes]] and currently a
+visiting student at the [[https://math.asu.edu/][School of Mathematical and
+Statistical Sciences]] at Arizona State University working
+with [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
+* Research
+- [[./docs/masters.pdf][R&D Elasticity in Brazilian
+  Manufacturing and Spillovers - An Unobserved Common
+  Factors Approach]]: accepted for publication at the
+  Brazilian Journal of Applied Economics (text in
+  Portuguese)
+* Teaching
+At Universidade de Brasilia:
+1. 2015 - Teaching assistant: Economic Growth of Brazil
+At Universidade de São Paulo:
+1. 2019 - Teaching assistant: Introduction to Macroeconomics
+   and Macroeconomics 1
+At Insper:
+1. 2022 - Teaching assistant: Bayesian Learning
+* CV
+[[./docs/cv.pdf][Curriculum Vitae]]
+* Github
+[[https://github.com/rafaelcalcantara/]]
