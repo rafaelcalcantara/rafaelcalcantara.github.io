@@ -8,10 +8,12 @@
 [[./images/profile.jpg]]
 * About
 I am a fourth year PhD student in Business Economics at
-[[https://www.insper.edu.br/en/][Insper]] working with [[https://hedibert.org/][Dr. Hedibert Lopes]] and currently a
-visiting scholar at the [[https://math.asu.edu/][School of Mathematical and
-Statistical Sciences]] at Arizona State University working
-with [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
+[[https://www.insper.edu.br/en/][Insper]] working with
+[[https://hedibert.org/][Dr. Hedibert Lopes]]. For the first semester
+of 2023, I was a visiting scholar at the
+[[https://math.asu.edu/][School of Mathematical and Statistical
+Sciences]] at Arizona State University working with
+[[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
 * Research
 - [[./docs/masters.pdf][R&D Elasticity in Brazilian
   Manufacturing and Spillovers - An Unobserved Common
@@ -26,6 +28,7 @@ At Universidade de São Paulo:
   and Macroeconomics 1
 At Insper:
 - 2022 - Teaching assistant: Bayesian Learning
+- 2023 - Teaching assistant: Bayesian Econometrics
 * CV
 [[./docs/cv.pdf][Curriculum Vitae]]
 * Github
