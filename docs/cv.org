@@ -34,9 +34,6 @@
 	     \begin{tabular}{ll}
 	       2020- Dec 2023 (Expected) & PhD in Business Economics\\
 				 & Advisor: Hedibert Freitas Lopes\\
-	       Feb-Jul 2023      & Visiting scholar\\
-				 & School of Mathematical and Statistical Sciences, Arizona State University\\
-	                         & Sponsor: Paul Richard Hahn\\
 	       2018-2020         & MSc in Applied Economics\\
 				 & Universidade de São Paulo, USP, São Paulo, Brazil\\
 	       \multirow{2}{*}{} & \multirow{2}{*}{\minitab[l]{Thesis: Estimation of the R\&D Elasticity in Brazil:\\An Unobserved Common Factor Approach}}\\
@@ -68,6 +65,9 @@
    #+begin_src latex
      \begin{footnotesize}
        \begin{tabular}{ll}
+	 2023      & Visiting scholar\\
+		   & School of Mathematical and Statistical Sciences, Arizona State University\\
+		   & Sponsor: Paul Richard Hahn\\
 	 2022      & Insper, São Paulo, Brazil\\
 		   & Research Assistant\\
 		   & Supervisors: Naércio Aquino Menezes Filho, Camila de Freitas Souza Campos\\
@@ -76,7 +76,7 @@
 		   & Coordinator: Andrea Felippe Cabello\\
 	 2016-2017 & Universidade de Brasília, UnB, Brasil\\
 		   & Scientific initiation program: ``Analysis of Net Neutrality Policies and their Impacts''\\
-	           & Supervisor: Andrea Felippe Cabello
+		   & Supervisor: Andrea Felippe Cabello
        \end{tabular}
      \end{footnotesize}
    #+end_src
