@@ -31,5 +31,5 @@ At Insper:
 - 2023 - Teaching assistant: Bayesian Econometrics
 * CV
 [[./docs/cv.pdf][Curriculum Vitae]]
-* Github
-[[https://github.com/rafaelcalcantara/]]
+* Links
+[[https://github.com/rafaelcalcantara/][Github]],[[https://www.linkedin.com/in/rafael-campello-de-alcantara-861655129/][Linkedin]]
