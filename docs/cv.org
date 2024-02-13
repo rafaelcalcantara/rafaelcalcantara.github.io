@@ -17,7 +17,7 @@
   \begin{tabular}{lr}
   \href{https://www.insper.edu.br/en/}{Insper - Institution of Education and Research} & Telephone: +55 16997606092\\
   Rua Quatá, 300 - Vila Olímpia & Email: rafaelca10@al.insper.edu.br\\
-  São Paulo, SP, 04546-042, Brazil & \url{https://github.com/rafaelcalcantara}
+  São Paulo, SP, 04546-042, Brazil & \url{https://rafaelcalcantara.github.io/}
   \end{tabular}
   \end{center}
 #+end_src
@@ -32,7 +32,7 @@
          #+begin_src latex
 	   \begin{footnotesize}
 	     \begin{tabular}{ll}
-	       2020- Dec 2023 (Expected) & PhD in Business Economics\\
+	       2020- Feb 2024 (Expected) & PhD in Business Economics\\
 				 & Advisor: Hedibert Freitas Lopes\\
 	       2018-2020         & MSc in Applied Economics\\
 				 & Universidade de São Paulo, USP, São Paulo, Brazil\\

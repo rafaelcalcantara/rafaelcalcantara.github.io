@@ -14,6 +14,15 @@ of 2023, I was a visiting scholar at the
 [[https://math.asu.edu/][School of Mathematical and Statistical
 Sciences]] at Arizona State University working with
 [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
+* Conference Talks
+   1. /Bayesian Additive Regression Trees For Regression
+      Discontinuity Designs/ (with Hedibert Lopes), 44th
+      Meeting of the Brazilian Econometric Society, December
+      2022 [[https://doity.com.br/anais/44ebe][(Link)]]
+   2. /A Modified BART Prior for Regression Discontinuity Designs/
+      (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), NBER-NSF
+      Seminar on Bayesian Inference in Econometrics and Statistics,
+      August 2023 [[https://event.olin.wustl.edu/sbies][(Link)]]
 * Research
 - [[./docs/masters.pdf][R&D Elasticity in Brazilian
   Manufacturing and Spillovers - An Unobserved Common
