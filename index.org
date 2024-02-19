@@ -7,11 +7,10 @@
 #+ATTR_HTML: :width 150px
 [[./images/profile.jpg]]
 * About
-I am a fourth year PhD student in Business Economics at
-[[https://www.insper.edu.br/en/][Insper]] working with
-[[https://hedibert.org/][Dr. Hedibert Lopes]]. For the first semester
-of 2023, I was a visiting scholar at the
-[[https://math.asu.edu/][School of Mathematical and Statistical
+I am a recent PhD graduate in Business Economics at [[https://www.insper.edu.br/en/][Insper,]]
+where I worked under the supervision of [[https://hedibert.org/][Dr. Hedibert
+Lopes]]. For the first semester of 2023, I was a visiting
+scholar at the [[https://math.asu.edu/][School of Mathematical and Statistical
 Sciences]] at Arizona State University working with
 [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
 * Conference Talks
