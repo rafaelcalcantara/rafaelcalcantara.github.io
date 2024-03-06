@@ -121,7 +121,8 @@
       (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), NBER-NSF
       Seminar on Bayesian Inference in Econometrics and Statistics,
       August 2023
-* Published papers
+* Papers
+** Published
   1. *ALCANTARA, R.* ; KANNEBLEY JR, S. Elasticidade de P&D na Indústria Brasileira e Transbordamentos - Uma abordagem de fatores comuns não­-observados. Economia Aplicada (Accepted publication)
   2. *ALCANTARA, R.* Análise de políticas de neutralidade de rede e seus impactos. O Eco da Graduação, v. 2, p. 63-73, 2017
   3. CABELLO, A. F. ; *ALCANTARA, R.* ; GOMES, Y. C. ; WILBERT,
@@ -129,6 +130,11 @@
      CARNEIRO, C. A. B. D. ; RIBEIRO, P. V. A História das Origens do
      Departamento de Economia da Universidade de Brasília. O Eco da
      Graduação, v. 1, p. 1-19, 2016.
+** Accepted for publication
+1. R&D Elasticity in Brazilian Manufacturing and
+   Spillovers - An Unobserved Common Factors Approach:
+   accepted for publication at the Brazilian Journal of
+   Applied Economics
 * Technical skills
   Advanced R, intermediate Stata, basic SQL
 * Language
