@@ -56,18 +56,20 @@
 	 #+end_src
 ** Complementary education
          #+begin_src latex
-     \begin{footnotesize}
-       \begin{tabular}{ll}
-	 2020 & Introduction to SQL (4h)\\
-	      & DataCamp, DataCamp, Inc.\\
-	 2020 & Introduction to Git (4h)\\
-	      & DataCamp, DataCamp, Inc.\\
-	 2017 & Tutoring program in R (60h)\\
-	      & Universidade de Brasília, UnB, Brasília, Brazil\\
-	 2017 & Introduction to R (4h)\\
-	      & DataCamp, DataCamp, Inc.
-       \end{tabular}
-     \end{footnotesize}
+	   \begin{footnotesize}
+	     \begin{tabular}{ll}
+	       2024 & Introduction to Python (4h)\\
+		    & DataCamp, DataCamp, Inc.\\
+	       2020 & Introduction to SQL (4h)\\
+		    & DataCamp, DataCamp, Inc.\\
+	       2020 & Introduction to Git (4h)\\
+		    & DataCamp, DataCamp, Inc.\\
+	       2017 & Tutoring program in R (60h)\\
+		    & Universidade de Brasília, UnB, Brasília, Brazil\\
+	       2017 & Introduction to R (4h)\\
+		    & DataCamp, DataCamp, Inc.
+	     \end{tabular}
+	   \end{footnotesize}
    #+end_src
 * Experience
 ** Research
@@ -130,6 +132,6 @@
      Departamento de Economia da Universidade de Brasília. O Eco da
      Graduação, v. 1, p. 1-19, 2016.
 * Technical skills
-  Advanced R, intermediate Stata, basic SQL
+  Advanced R, intermediate Stata, basic SQL, basic Python
 * Language
   Native Portuguese, fluent English
