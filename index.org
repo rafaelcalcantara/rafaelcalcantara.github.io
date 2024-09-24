@@ -18,9 +18,9 @@ with [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
 1. 2024-present: Postdoctoral fellow, The University of Texas at Austin,
    McCombs School of Business
 * Research
-- *ALCANTARA, R.*; WANG, M.; HAHN, P.R.; LOPES, H. [[https://arxiv.org/abs/2407.14365][Modified
-  BART for Learning Heterogeneous Effects in Regression
-  Discontinuity Designs]] (submitted paper)
+- [[https://arxiv.org/abs/2407.14365][Modified BART for
+  Learning Heterogeneous Effects in Regression Discontinuity
+  Designs]] (submitted paper)
 - [[./docs/masters.pdf][R&D Elasticity in Brazilian
   Manufacturing and Spillovers - An Unobserved Common
   Factors Approach]]: accepted for publication at the
