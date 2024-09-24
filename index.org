@@ -7,12 +7,25 @@
 #+ATTR_HTML: :width 150px
 [[./images/profile.jpg]]
 * About
-I am a recent PhD graduate in Business Economics at [[https://www.insper.edu.br/en/][Insper,]]
-where I worked under the supervision of [[https://hedibert.org/][Dr. Hedibert
-Lopes]]. For the first semester of 2023, I was a visiting
-scholar at the [[https://math.asu.edu/][School of Mathematical and Statistical
-Sciences]] at Arizona State University working with
-[[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
+I am a postdoctoral fellow at the the University of Texas at
+Austin. I have recently graduated as a PhD in Business
+Economics at [[https://www.insper.edu.br/en/][Insper,]] where I worked under the supervision of
+[[https://hedibert.org/][Dr. Hedibert Lopes]]. For the first semester of 2023, I was a
+visiting scholar at the [[https://math.asu.edu/][School of Mathematical and
+Statistical Sciences]] at Arizona State University working
+with [[https://math.la.asu.edu/~prhahn/][Dr. Richard Hahn]].
+* Professional appointments
+1. 2024-present: Postdoctoral fellow, The University of Texas at Austin,
+   McCombs School of Business
+* Research
+- *ALCANTARA, R.*; WANG, M.; HAHN, P.R.; LOPES, H. [[https://arxiv.org/abs/2407.14365][Modified
+  BART for Learning Heterogeneous Effects in Regression
+  Discontinuity Designs]] (submitted paper)
+- [[./docs/masters.pdf][R&D Elasticity in Brazilian
+  Manufacturing and Spillovers - An Unobserved Common
+  Factors Approach]]: accepted for publication at the
+  Brazilian Journal of Applied Economics (text in
+  Portuguese)
 * Conference Talks
    1. /Bayesian Additive Regression Trees For Regression
       Discontinuity Designs/ (with Hedibert Lopes), 44th
@@ -22,12 +35,6 @@ Sciences]] at Arizona State University working with
       (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), NBER-NSF
       Seminar on Bayesian Inference in Econometrics and Statistics,
       August 2023 [[https://event.olin.wustl.edu/sbies][(Link)]]
-* Research
-- [[./docs/masters.pdf][R&D Elasticity in Brazilian
-  Manufacturing and Spillovers - An Unobserved Common
-  Factors Approach]]: accepted for publication at the
-  Brazilian Journal of Applied Economics (text in
-  Portuguese)
 * Teaching
 At Universidade de Brasília:
 - 2015 - Teaching assistant: Economic Growth of Brazil
