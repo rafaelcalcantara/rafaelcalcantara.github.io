@@ -24,8 +24,8 @@ body {
 }
 ```
 
-:::: {style="display: flex;"}
-::: {.column width="18%"}
+::::: {style="display: flex;"}
+:::: {.column width="18%"}
 # Rafael Alcantara
 <div style="border-radius: 26px; overflow: hidden; width: 150px; height: 196px; box-sizing:border-box;">
   `r knitr::include_graphics("./images/profile.jpg")`
@@ -34,14 +34,16 @@ body {
 - `r fa("envelope")` [Email](rafael.campellodealcantara@mccombs.utexas.edu)
 - `r fa("github")` [Github]([https://github.com/rafaelcalcantara/)
 - `r fa("linkedin", fill="#0a66c2")` [Linkedin](https://www.linkedin.com/in/rafael-campello-de-alcantara-861655129/)
-:::
+::::
 
-::: {.column width="82%" style="border-left: 1px solid #ccc; padding-left: 1em;"}
+:::: {.column width="82%"}
+::: {style="border-left: 1px solid #ccc; padding-left: 1em;"}
 # {.tabset}
 ## About
 I am a postdoctoral fellow at the the University of Texas at Austin. I have recently graduated as a PhD in Business Economics at [Insper](https://www.insper.edu.br/en/) where I worked under the supervision of [Dr. Hedibert Lopes](https://hedibert.org/). For the first semester of 2023, I was a visiting scholar at the [School of Mathematical and Statistical Sciences](https://math.asu.edu/) at Arizona State University working with [Dr. Richard Hahn](https://math.la.asu.edu/~prhahn/).
 
 ## Professional appointments
+### Current
 - 2024-present: Postdoctoral fellow, The University of Texas at Austin, McCombs School of Business
 
 ## Research
@@ -74,3 +76,4 @@ At Insper:
 - [Curriculum Vitae](./docs/cv.pdf)
 :::
 ::::
+:::::
