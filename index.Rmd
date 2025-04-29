@@ -1,0 +1,76 @@
+---
+title: "&#32;"
+date: no
+output:
+  html_document:
+    theme: "yeti"
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo=FALSE}
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
+  font-size: 18px;
+}
+```
+
+:::: {style="display: flex;"}
+::: {.column width="18%"}
+# Rafael Alcantara
+<div style="border-radius: 26px; overflow: hidden; width: 150px; height: 196px; box-sizing:border-box;">
+  `r knitr::include_graphics("./images/profile.jpg")`
+</div>
+
+- `r fa("envelope")` [Email](rafael.campellodealcantara@mccombs.utexas.edu)
+- `r fa("github")` [Github]([https://github.com/rafaelcalcantara/)
+- `r fa("linkedin", fill="#0a66c2")` [Linkedin](https://www.linkedin.com/in/rafael-campello-de-alcantara-861655129/)
+:::
+
+::: {.column width="82%" style="border-left: 1px solid #ccc; padding-left: 1em;"}
+# {.tabset}
+## About
+I am a postdoctoral fellow at the the University of Texas at Austin. I have recently graduated as a PhD in Business Economics at [Insper](https://www.insper.edu.br/en/) where I worked under the supervision of [Dr. Hedibert Lopes](https://hedibert.org/). For the first semester of 2023, I was a visiting scholar at the [School of Mathematical and Statistical Sciences](https://math.asu.edu/) at Arizona State University working with [Dr. Richard Hahn](https://math.la.asu.edu/~prhahn/).
+
+## Professional appointments
+- 2024-present: Postdoctoral fellow, The University of Texas at Austin, McCombs School of Business
+
+## Research
+### Papers
+- [Learning Conditional Average Treatment Effects in Regression Discontinuity Designs using Bayesian Additive Regression Trees](https://arxiv.org/abs/2503.00326) (submitted; with P. Richard Hahn, Carlos Carvalho and Hedibert Lopes)
+- [Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2407.14365) (working paper; with Meijia Wang, P. Richard Hahn and Hedibert Lopes)
+- [R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach](./docs/masters.pdf): accepted for publication at the Brazilian Journal of Applied Economics (text in Portuguese)
+
+### Conference Talks
+- _A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), São Paulo School of Advanced Science on High Dimensional Modelling, April 2025 [(Poster)](https://drive.google.com/file/d/1BAp0wKB0LGFc6SDapdUxiMxlWpMcFSox/view) (EDIT: This version of the paper is outdated; for an updated presentation please see the [following slides](./docs/rdd_slides.pdf); the most recent version of the paper can be found [here](https://arxiv.org/abs/2503.00326))
+- _A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), LACEA-LAMES Annual Meeting, November 2024
+- _A Modified BART Prior for Regression Discontinuity Designs_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), NBER-NSF Seminar on Bayesian Inference in Econometrics and Statistics, August 2023 [(Link)](https://event.olin.wustl.edu/sbies)
+- _Bayesian Additive Regression Trees For Regression Discontinuity Designs_ (with Hedibert Lopes), 44th Meeting of the Brazilian Econometric Society, December 2022 [(Link)](https://doity.com.br/anais/44ebe)
+
+## Teaching
+At Universidade de Brasilia:
+
+- Teaching assistant: Economic Growth of Brazil (2015)
+
+At Universidade de Sao Paulo:
+
+- Teaching assistant: Introduction to Macroeconomics and Macroeconomics 1 (2019)
+
+At Insper:
+
+- Teaching assistant: Bayesian Econometrics (2023)
+- Teaching assistant: Bayesian Learning (2022)
+
+## CV
+- [Curriculum Vitae](./docs/cv.pdf)
+:::
+::::
