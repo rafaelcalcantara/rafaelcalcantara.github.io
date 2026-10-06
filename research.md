@@ -8,7 +8,7 @@ permalink: /research/
 
 1. **A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs** with P. Richard Hahn and Hedibert F. Lopes\\
    Accepted for publication, Observational Studies\\
-   [[arXiv]((https://arxiv.org/abs/2503.00326))] [[Slides](/docs/BARDDT_ISBA_2026.pdf)]
+   [[arXiv](https://arxiv.org/abs/2503.00326)] [[Slides](/docs/BARDDT_ISBA_2026.pdf)]
 
 1. **R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach**\\
    Brazilian Journal of Applied Economics, 2024\\
@@ -17,15 +17,15 @@ permalink: /research/
 ## Working Papers
 
 1. **Statistical Aspects of SHAP: Functional ANOVA for Model Interpretation** with Andrew Herren, P. Richard Hahn\\
-   [[arXiv]((https://arxiv.org/abs/2208.09970))]
+   [[arXiv](https://arxiv.org/abs/2208.09970)]
 
 1. **Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs** with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes\\
-   [[arXiv]((https://arxiv.org/abs/2407.14365))]
+   [[arXiv](https://arxiv.org/abs/2407.14365)]
 
 ## Work in Progress
 
 1. **Searching for Parallel Trends: Discovering Diff-in-Diff Estimators** with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray
-   <!-- [[Slides]((/docs/ESOBE_2026.pdf))] -->
+   {% comment %}[[Slides](/docs/ESOBE_2026.pdf)]{% endcomment %}
 
 ## Conference Talks
 

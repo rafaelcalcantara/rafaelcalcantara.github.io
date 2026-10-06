@@ -22,3 +22,4 @@ exclude:
   - README.md
   - docs/cv.tex
   - docs/cv.org
+  - docs/ESOBE_2026.pdf
