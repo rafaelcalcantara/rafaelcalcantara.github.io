@@ -18,6 +18,10 @@ permalink: /research/
 
 1. **[Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2407.14365)** with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes
 
+## Work in Progress
+
+1. **Searching for Parallel Trends: Discovering Diff-in-Diff Estimators** with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray
+
 ## Conference Talks
 
 - _Searching for Parallel Trends: Discovering difference-in-differences estimators_ (with P. Richard Hahn, Andrew Herren, Palak Jain and Jared Murray), European Seminar on Bayesian Econometrics (ESOBE), 2026 [(Slides)](/docs/ESOBE_2026.pdf)
