@@ -143,3 +143,54 @@ main { padding: 0 1em 3em; }
   .author__avatar { width: 90px; height: 90px; grid-row: span 3; }
   .author__name { margin-top: 0; }
 }
+
+/* CV page: styled after the LaTeX article class (Computer Modern, 10pt, unnumbered sections) */
+.cv {
+  max-width: 46rem;
+  margin: 2.5rem auto 0;
+  color: #000;
+  font-family: "CMU Serif", "Latin Modern Roman", "Computer Modern Serif", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.cv a { color: inherit; text-decoration: underline; text-decoration-color: #bbb; text-underline-offset: 2px; }
+.cv a:hover { text-decoration-color: currentColor; }
+
+.cv__title { margin-bottom: 2.5rem; text-align: center; }
+.cv__title h1 { margin: 0 0 1rem; color: #000; font-size: 1.75rem; font-weight: 500; }
+.cv__name { margin: 0 0 2rem; font-size: 1.2rem; }
+.cv__contact { margin: 0; line-height: 1.5; }
+.cv__contact a { text-decoration: none; }
+.cv__url { font-family: "CMU Typewriter Text", "Courier New", monospace; font-weight: 400; }
+
+.cv h2 { margin: 2.2rem 0 0.9rem; color: #000; font-size: 1.45rem; font-weight: 700; text-align: left; }
+.cv h3 { margin: 1.6rem 0 0.6rem; color: #000; font-size: 1.2rem; font-weight: 700; text-align: left; }
+.cv p { margin: 0 0 0.8rem; }
+
+/* Date tables (\begin{footnotesize}\begin{tabular}{ll}) */
+.cv dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0 1.1em;
+  margin: 0 0 0 0.5em;
+  font-size: 0.8em;
+  line-height: 1.3;
+  text-align: left;
+}
+.cv dt { grid-column: 1; }
+.cv dd { grid-column: 2; margin: 0; }
+
+/* Numbered lists (enumerate) */
+.cv ol { margin: 0 0 0.8rem; padding-left: 2.1em; }
+.cv li { margin-bottom: 0.55rem; padding-left: 0.2em; }
+.cv li > p { margin: 0; }
+
+@media (max-width: 600px) {
+  .cv { text-align: left; }
+  .cv dl { grid-template-columns: 1fr; margin-left: 0; }
+  .cv dt { font-weight: 700; }
+  .cv dd { grid-column: 1; margin-bottom: 0.5em; }
+}

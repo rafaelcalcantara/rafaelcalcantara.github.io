@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.3/cmu-serif.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.3/cmu-typewriter-text.css">
+
+<article class="cv">
+  <header class="cv__title">
+    <h1>{{ page.title }}</h1>
+    <p class="cv__name">{{ page.name }}</p>
+    <p class="cv__contact">
+      {% for line in page.contact %}
+        {% if line contains '@' %}<a href="mailto:{{ line }}">{{ line }}</a>
+        {% elsif line contains '://' %}<a class="cv__url" href="{{ line }}">{{ line }}</a>
+        {% else %}{{ line }}{% endif %}{% unless forloop.last %}<br>{% endunless %}
+      {% endfor %}
+    </p>
+  </header>
+
+  {{ content }}
+</article>
