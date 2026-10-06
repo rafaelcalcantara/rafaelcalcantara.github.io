@@ -12,7 +12,7 @@ permalink: /research/
 
 1. **R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach**\\
    Brazilian Journal of Applied Economics, 2024\\
-   ([PDF (in Portuguese)](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830))
+   [[PDF (in Portuguese)](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830)]
 
 ## Working Papers
 
