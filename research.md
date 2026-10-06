@@ -6,20 +6,23 @@ permalink: /research/
 
 ## Publications
 
-1. **[R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach](/docs/masters.pdf)**\\
-   Accepted for publication, Brazilian Journal of Applied Economics (text in Portuguese)
+1. **[A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2503.00326)** with P. Richard Hahn and Hedibert F. Lopes\\
+   Accepted for publication, Observational Studies
+
+1. **R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach**\\
+   Brazilian Journal of Applied Economics, 2024 ([text in Portuguese](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830))
 
 ## Working Papers
 
-1. **[Learning Conditional Average Treatment Effects in Regression Discontinuity Designs using Bayesian Additive Regression Trees](https://arxiv.org/abs/2503.00326)** with P. Richard Hahn, Carlos Carvalho and Hedibert Lopes\\
-   Submitted
+1. **[Statistical Aspects of SHAP: Functional ANOVA for Model Interpretation](https://arxiv.org/abs/2208.09970)** with Andrew Herren, P. Richard Hahn
 
-1. **[Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2407.14365)** with Meijia Wang, P. Richard Hahn and Hedibert Lopes\\
-   Working paper
+1. **[Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2407.14365)** with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes
 
 ## Conference Talks
 
-- _A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), São Paulo School of Advanced Science on High Dimensional Modelling, April 2025 [(Poster)](https://drive.google.com/file/d/1BAp0wKB0LGFc6SDapdUxiMxlWpMcFSox/view) (EDIT: This version of the paper is outdated; for an updated presentation please see the [following slides](/docs/rdd_slides.pdf); the most recent version of the paper can be found [here](https://arxiv.org/abs/2503.00326))
+- _Searching for Parallel Trends: Discovering difference-in-differences estimators_ (with P. Richard Hahn, Andrew Herren, Palak Jain and Jared Murray), European Seminar on Bayesian Econometrics (ESOBE), 2026 [(Slides)](/docs/ESOBE_2026.pdf)
+- _A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs_ (with P. Richard Hahn and Hedibert F. Lopes), International Society for Bayesian Analysis (ISBA) World Meeting, 2026 [(Slides)](/docs/BARDDT%20-%20ISBA%202026.pdf)
+- _A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), São Paulo School of Advanced Science on High Dimensional Modelling, April 2025
 - _A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), LACEA-LAMES Annual Meeting, November 2024
 - _A Modified BART Prior for Regression Discontinuity Designs_ (with Meijia Wang, P. Richard Hahn, Hedibert Lopes), NBER-NSF Seminar on Bayesian Inference in Econometrics and Statistics, August 2023 [(Link)](https://event.olin.wustl.edu/sbies)
 - _Bayesian Additive Regression Trees For Regression Discontinuity Designs_ (with Hedibert Lopes), 44th Meeting of the Brazilian Econometric Society, December 2022 [(Link)](https://doity.com.br/anais/44ebe)
