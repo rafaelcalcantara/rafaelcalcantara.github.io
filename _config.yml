@@ -20,3 +20,5 @@ nav:
 
 exclude:
   - README.md
+  - docs/cv.tex
+  - docs/cv.org
