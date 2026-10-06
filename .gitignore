@@ -1,2 +1,9 @@
 .DS_Store
 README.md
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+_minted-*/
