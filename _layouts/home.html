@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section class="home-intro">
+  <div class="home-intro__portrait">
+    <img src="{{ site.author.photo }}" alt="{{ site.author.name }}">
+  </div>
+  <div class="home-intro__content">
+    <h1>{{ site.author.name }}</h1>
+    <p class="home-intro__role">{{ site.author.role | join: '<br>' }}</p>
+    {{ content }}
+    {% include links.html class="home-intro__links" %}
+  </div>
+</section>

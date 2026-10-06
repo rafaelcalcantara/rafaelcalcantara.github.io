@@ -1,0 +1,6 @@
+<ul class="{{ include.class }}">
+  {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}"><i class="fa-solid fa-envelope"></i>Email</a></li>{% endif %}
+  {% if site.author.github %}<li><a href="{{ site.author.github }}"><i class="fa-brands fa-github"></i>GitHub</a></li>{% endif %}
+  {% if site.author.linkedin %}<li><a href="{{ site.author.linkedin }}"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>{% endif %}
+  {% if site.author.scholar %}<li><a href="{{ site.author.scholar }}"><i class="fa-solid fa-graduation-cap"></i>Google Scholar</a></li>{% endif %}
+</ul>

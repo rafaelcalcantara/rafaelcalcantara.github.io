@@ -3,61 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@3.4.1/yeti/bootstrap.min.css">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <style>
-    body { font-size: 18px; padding: 1em 0; }
-    h1, h2, h3 { text-align: center; }
-    .layout { display: flex; gap: 1em; max-width: 970px; margin: 0 auto; padding: 0 15px; }
-    .sidebar { width: 18%; min-width: 180px; }
-    .sidebar img { display: block; width: 150px; height: 196px; object-fit: cover; border-radius: 26px; margin: 0 auto 1em; }
-    .main { width: 82%; border-left: 1px solid #ccc; padding-left: 1em; }
-    .nav-tabs { margin-top: 0.5em; }
-    .fa-linkedin { color: #0a66c2; }
-    @media (max-width: 768px) {
-      .layout { flex-direction: column; }
-      .sidebar, .main { width: 100%; }
-      .main { border-left: none; padding-left: 0; }
-    }
-  </style>
 </head>
 <body>
-<div class="layout">
-  <div class="sidebar">
-    <h1>{{ page.title }}</h1>
-    <img src="{{ page.photo }}" alt="{{ page.title }}">
-    <ul>
-      {% if page.email %}<li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ page.email }}">Email</a></li>{% endif %}
-      {% if page.github %}<li><i class="fa-brands fa-github"></i> <a href="{{ page.github }}">Github</a></li>{% endif %}
-      {% if page.linkedin %}<li><i class="fa-brands fa-linkedin"></i> <a href="{{ page.linkedin }}">Linkedin</a></li>{% endif %}
-    </ul>
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="masthead__title" href="/">{{ site.author.name }}</a>
+    <nav>
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
+</header>
 
-  <div class="main">
-    {% comment %}Each "## Heading" in the page becomes a tab.{% endcomment %}
-    {% assign sections = content | split: '<h2 ' %}
-    <ul class="nav nav-tabs">
-      {% for section in sections offset: 1 %}
-        {% assign heading = section | split: '</h2>' | first %}
-        {% assign id = heading | split: '"' | slice: 1 %}
-        {% assign name = heading | split: '>' | last %}
-        <li{% if forloop.first %} class="active"{% endif %}><a href="#{{ id }}" data-toggle="tab">{{ name }}</a></li>
-      {% endfor %}
-    </ul>
-    <div class="tab-content">
-      {% for section in sections offset: 1 %}
-        {% assign heading = section | split: '</h2>' | first %}
-        {% assign id = heading | split: '"' | slice: 1 %}
-        <div class="tab-pane{% if forloop.first %} active{% endif %}" id="{{ id }}">
-          {{ section | remove_first: heading | remove_first: '</h2>' }}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<main>
+{{ content }}
+</main>
 </body>
 </html>

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="page">
+  <aside class="author">
+    <img class="author__avatar" src="{{ site.author.photo }}" alt="{{ site.author.name }}">
+    <p class="author__name">{{ site.author.name }}</p>
+    <p class="author__role">{{ site.author.role | join: '<br>' }}</p>
+    {% include links.html class="author__links" %}
+  </aside>
+  <article class="page__content">
+    {{ content }}
+  </article>
+</div>

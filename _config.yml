@@ -1,0 +1,22 @@
+# Site-wide details used by every page: name, role, photo, links and the top menu.
+title: Rafael Alcantara
+
+author:
+  name: Rafael Alcantara
+  role:
+    - Postdoctoral Fellow
+    - McCombs School of Business, The University of Texas at Austin
+  photo: /images/profile-medium.jpg
+  email: rafael.campellodealcantara@mccombs.utexas.edu
+  github: https://github.com/rafaelcalcantara/
+  linkedin: https://www.linkedin.com/in/rafael-campello-de-alcantara-861655129/
+  # scholar: https://scholar.google.com/citations?user=...
+
+nav:
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+
+exclude:
+  - README.md
