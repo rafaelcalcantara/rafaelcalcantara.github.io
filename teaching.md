@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-### As Teaching Assistant
+### Teaching Assistant
 
 - **Bayesian Econometrics**, Insper\\
   2023
