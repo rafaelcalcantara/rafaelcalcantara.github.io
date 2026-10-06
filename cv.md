@@ -2,7 +2,7 @@
 layout: cv
 title: Curriculum Vitae
 permalink: /cv/
-name: Rafael Campello de Alcantara
+fullname: Rafael Campello de Alcantara
 contact:
   - The University of Texas at Austin
   - rafael.campellodealcantara@mccombs.utexas.edu
