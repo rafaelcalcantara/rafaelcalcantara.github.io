@@ -19,7 +19,7 @@ contact:
 2023
 : Visiting scholar\\
   School of Mathematical and Statistical Sciences, Arizona State University\\
-  Sponsor: Paul Richard Hahn
+  Sponsor: P. Richard Hahn
 
 2022
 : Insper, São Paulo, Brazil\\
