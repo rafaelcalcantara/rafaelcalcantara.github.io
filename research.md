@@ -10,7 +10,7 @@ permalink: /research/
    Accepted for publication, Observational Studies\\
    [[arXiv](https://arxiv.org/abs/2503.00326)] [[Slides](/docs/BARDDT_ISBA_2026.pdf)]
 
-1. **R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach**\\
+1. **R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach** with Sergio Kannebley Jr.\\
    Brazilian Journal of Applied Economics, 2024\\
    [[PDF (in Portuguese)](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830)]
 

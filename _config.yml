@@ -20,6 +20,7 @@ nav:
 
 exclude:
   - README.md
+  - cv.md
   - docs/cv.tex
   - docs/cv.org
   - docs/ESOBE_2026.pdf

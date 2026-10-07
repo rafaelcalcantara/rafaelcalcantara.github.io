@@ -50,7 +50,7 @@ contact:
 1. **[A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2503.00326)** with P. Richard Hahn and Hedibert F. Lopes\\
   Accepted for publication, Observational Studies
 
-1. **[Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830)** with Sergio Kannebley Jr.\\
+1. **[R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830)** with Sergio Kannebley Jr.\\
   Brazilian Journal of Applied Economics, 2024
 
 ## Preprints/Submitted
