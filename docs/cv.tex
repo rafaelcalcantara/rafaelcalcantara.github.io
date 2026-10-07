@@ -1,150 +1,166 @@
-% Created 2024-09-24 ter 13:21
 % Intended LaTeX compiler: xelatex
-\documentclass[10pt]{article}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{wrapfig}
-\usepackage{rotating}
-\usepackage[normalem]{ulem}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{capt-of}
-\usepackage{hyperref}
-%\usepackage{minted}
-\usepackage{bbm}
-\usepackage[T1]{fontenc}
-%\usepackage{fontspec}
-%\setmainfont{Latin Modern Roman}
-\usepackage{multirow}
-\usepackage[margin=0.75in]{geometry}
-\newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
-\author{Rafael Campello de Alcantara}
-\date{}
-\title{Curriculum Vitae}
+% Layout modeled on a two-column academic CV: section labels in a left
+% column (light sans small caps), content on the right, Garamond body text.
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[left=1.9in,right=0.7in,top=0.6in,bottom=0.8in]{geometry}
+\usepackage[explicit]{titlesec}
+\usepackage{changepage}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+
+% Fonts: EB Garamond (body, stands in for Sabon) and Alegreya Sans SC Light
+% (section labels, stands in for Cronos Pro Light). Both ship with TeX Live.
+\setmainfont{EBGaramond}[
+  Extension      = .otf,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-BoldItalic,
+  Numbers        = Lining,
+  Scale          = 1.08]
+\newfontfamily\labelfont{AlegreyaSansSC-Light.otf}
+
+% Width of the left label column (it hangs into the left margin)
+\newlength{\cvlabelwidth}
+\setlength{\cvlabelwidth}{1.35in}
+
+% Section labels sit in the left margin, top-aligned with the first line
+\titleformat{\section}[leftmargin]
+  {\labelfont\large\raggedright}{}{0pt}{#1}
+\titlespacing*{\section}{\cvlabelwidth}{10pt}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\pagestyle{empty}
+
+% Dated entry: bold first line with the date flush right, remaining lines indented
+%   \entry{date}{first line}{other lines, separated by \\}
+\newcommand{\entry}[3]{%
+  \textbf{#2}\hfill #1\par\nopagebreak
+  \begin{adjustwidth}{1.5em}{0pt}\raggedright #3\end{adjustwidth}\vspace{7pt}}
+
+% Numbered paper, counted continuously across sections:
+%   \paper{bold title}{coauthors (italic)}{status line, may be empty}
+\newcounter{paper}
+\newcommand{\paper}[3]{%
+  \stepcounter{paper}%
+  {\raggedright\textbf{\thepaper. #1}\par}\nopagebreak
+  \emph{#2}\par
+  \if\relax\detokenize{#3}\relax\else #3\par\fi
+  \vspace{7pt}}
+
 \hypersetup{
  pdfauthor={Rafael Campello de Alcantara},
  pdftitle={Curriculum Vitae},
- pdfkeywords={},
- pdfsubject={},
- pdfcreator={Emacs 29.1 (Org mode 9.6.6)}, 
  pdflang={English}}
+
 \begin{document}
 
-\maketitle
-\begin{center}
-\begin{tabular}{c}
-The University of Texas at Austin\\
-rafael.campellodealcantara@mccombs.utexas.edu\\
-\url{https://rafaelcalcantara.github.io/}
-\end{tabular}
-\end{center}
+% Header: name and title on the left, contact on the right, full-width rule
+\begin{adjustwidth}{-\cvlabelwidth}{0pt}
+\begin{tabular}[b]{@{}l@{}}
+  {\fontsize{18}{22}\selectfont\scshape Rafael Campello de Alcantara}\\[2pt]
+  {\itshape Curriculum Vitae}
+\end{tabular}%
+\hfill
+{\addfontfeatures{Numbers=OldStyle}%
+\begin{tabular}[b]{@{}r@{}}
+  The University of Texas at Austin\\
+  \href{mailto:rafael.campellodealcantara@mccombs.utexas.edu}{rafael.campellodealcantara@mccombs.utexas.edu}\\
+  \url{https://rafaelcalcantara.github.io/}
+\end{tabular}}
 
-\section*{Research experience}
+\vspace{6pt}
+\noindent\rule{\linewidth}{0.5pt}
+\end{adjustwidth}
+\vspace{4pt}
+
+\section{Research experience}
 \label{sec:research.experience}
-\begin{footnotesize}
-  \begin{tabular}{ll}
-    2024-present & Postdoctoral fellow\\
-	      & The University of Texas at Austin\\
-	      & McCombs School of Business\\
-    2023      & Visiting scholar\\
-	      & School of Mathematical and Statistical Sciences, Arizona State University\\
-	      & Sponsor: Paul Richard Hahn\\
-    2022      & Insper, São Paulo, Brazil\\
-	      & Research Assistant\\
-	      & Supervisors: Naércio Aquino Menezes Filho, Camila de Freitas Souza Campos
-  \end{tabular}
-\end{footnotesize}
+\entry{2024-present}{Postdoctoral fellow}{%
+  The University of Texas at Austin\\
+  McCombs School of Business}
+\entry{2023}{Visiting scholar}{%
+  School of Mathematical and Statistical Sciences, Arizona State University\\
+  Sponsor: Paul Richard Hahn}
+\entry{2022}{Insper, São Paulo, Brazil}{%
+  Research Assistant\\
+  Supervisors: Naércio Aquino Menezes Filho, Camila de Freitas Souza Campos}
 
-\section*{Education}
+\section{Education}
 \label{sec:org7da8f15}
-\begin{footnotesize}
-	     \begin{tabular}{ll}
-	       2020-2024         & PhD in Business Economics\\
-	       & Insper - Institute of Education and Research, São
-	       Paulo, Brazil\\
-	       \multirow{3}{*}{} &
-	       \multirow{3}{*}{\minitab[l]{Dissertation: A Constrained
-		   BART Model\\For Identifying Heterogeneous Treatment
-		   Effects\\In Regression Discontinuity
-Designs}}\\
-	       & \\
-	       & \\
-	       & Advisor: Hedibert Freitas Lopes\\
-	       2018-2020         & MSc in Applied Economics\\
-				 & Universidade de São Paulo, USP, São Paulo, Brazil\\
-	       \multirow{2}{*}{} & \multirow{2}{*}{\minitab[l]{Thesis: Estimation of the R\&D Elasticity in Brazil:\\An Unobserved Common Factor Approach}}\\
-				 & \\
-				 & Advisor: Sérgio Kannebley Júnior\\
-	       2013-2017         & BA in Economics\\
-				 & Universidade de Brasília, UnB, Brasília, Brazil\\
-				 & Advisor: Andrea Felippe Cabello  
-	     \end{tabular}
-	   \end{footnotesize}
+\entry{2020-2024}{PhD in Business Economics}{%
+  Insper - Institute of Education and Research, São Paulo, Brazil\\
+  Dissertation: A Constrained BART Model For Identifying Heterogeneous Treatment Effects In Regression Discontinuity Designs\\
+  Advisor: Hedibert Freitas Lopes}
+\entry{2018-2020}{MSc in Applied Economics}{%
+  Universidade de São Paulo, USP, São Paulo, Brazil\\
+  Thesis: Estimation of the R\&D Elasticity in Brazil: An Unobserved Common Factor Approach\\
+  Advisor: Sérgio Kannebley Júnior}
+\entry{2013-2017}{BA in Economics}{%
+  Universidade de Brasília, UnB, Brasília, Brazil\\
+  Advisor: Andrea Felippe Cabello}
 
-\section*{Publications}
+\section{Publications}
 \label{sec:publications}
-\begin{enumerate}
-	\item \textbf{\href{https://arxiv.org/abs/2503.00326}{A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs}} with P. Richard Hahn and Hedibert F. Lopes\\
-	Accepted for publication, Observational Studies
+\paper{\href{https://arxiv.org/abs/2503.00326}{A Bayesian Additive Regression Tree Model for Learning Conditional Average Treatment Effects in Regression Discontinuity Designs}}
+  {with P. Richard Hahn and Hedibert F. Lopes}
+  {Accepted for publication, Observational Studies}
+\paper{\href{https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830}{R\&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach}}
+  {with Sergio Kannebley Jr.}
+  {Brazilian Journal of Applied Economics, 2024}
 
-	\item \textbf{\href{https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830}{R\&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach}} with Sergio Kannebley Jr.\\
-	Brazilian Journal of Applied Economics, 2024
-\end{enumerate}
-
-\section*{Preprints/Submitted}
+\section{Preprints\slash Submitted}
 \label{sec:preprints}
-\begin{enumerate}
-	\item \textbf{\href{https://arxiv.org/abs/2407.14365}{Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs}} with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes
-\end{enumerate}
+\paper{\href{https://arxiv.org/abs/2407.14365}{Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs}}
+  {with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes}
+  {}
 
-\section*{Work in progress}
+\section{Work in progress}
 \label{sec:working.papers}
-\begin{enumerate}
-	\item \textbf{Searching for Parallel Trends: Discovering Diff-in-Diff Estimators}, with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray
+\paper{Searching for Parallel Trends: Discovering Diff-in-Diff Estimators,}
+  {with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray}
+  {}
+\paper{\href{https://arxiv.org/abs/2208.09970}{Statistical Aspects of SHAP: Functional ANOVA for Model Interpretation}}
+  {with Andrew Herren, P. Richard Hahn}
+  {}
 
-	\item \textbf{\href{https://arxiv.org/abs/2208.09970}{Statistical Aspects of SHAP: Functional ANOVA for Model Interpretation}} with Andrew Herren, P. Richard Hahn
-\end{enumerate}
-
-\section*{Seminar and conference presentations}
+\section{Seminar and conference presentations}
 \label{sec:presentations}
-\begin{enumerate}
-	\item \emph{Searching for parallel trends: Discovering diff-in-diff estimators} (with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray), European Seminar on Bayesian Econometrics (ESOBE), August 2026
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=7pt, topsep=0pt]
+  \item \emph{Searching for parallel trends: Discovering diff-in-diff estimators} (with Andrew Herren, Palak Jain, P. Richard Hahn, Jared Murray), European Seminar on Bayesian Econometrics (ESOBE), August 2026
+  \item \emph{Learning Conditional Average Treatment Effects in Regression Discontinuity Designs using Bayesian Additive Regression Trees} (with P. Richard Hahn, Hedibert F. Lopes), International Society for Bayesian Analysis (ISBA) World Meeting, July 2026
+  \item \emph{A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design} (with Meijia Wang, P. Richard Hahn, Hedibert F. Lopes), LACEA-LAMES Annual Meeting, November 2024
+  \item \emph{A Modified BART Prior for Regression Discontinuity Designs} (with Meijia Wang, P. Richard Hahn, Hedibert F. Lopes), NBER-NSF Seminar on Bayesian Inference in Econometrics and Statistics, August 2023
+  \item \emph{Bayesian Additive Regression Trees For Regression Discontinuity Designs} (with Hedibert F. Lopes), 44th Meeting of the Brazilian Econometric Society, December 2022
+\end{itemize}
 
-	\item \emph{Learning Conditional Average Treatment Effects in Regression Discontinuity Designs using Bayesian Additive Regression Trees} (with P. Richard Hahn, Hedibert F. Lopes), International Society for Bayesian Analysis (ISBA) World Meeting, July 2026
-
-	\item \emph{A Constrained BART Model for Identifying Heterogeneous Treatment Effects in regression discontinuity design} (with Meijia Wang, P. Richard Hahn, Hedibert F. Lopes), LACEA-LAMES Annual Meeting, November 2024
-
-	\item \emph{A Modified BART Prior for Regression Discontinuity Designs} (with Meijia Wang, P. Richard Hahn, Hedibert F. Lopes), NBER-NSF Seminar on Bayesian Inference in Econometrics and Statistics, August 2023
-
-	\item \emph{Bayesian Additive Regression Trees For Regression Discontinuity Designs} (with Hedibert F. Lopes), 44th Meeting of the Brazilian Econometric Society, December 2022
-\end{enumerate}
-
-\section*{Teaching}
+\section{Teaching}
 \label{sec:org3c7d8d1}
-\begin{footnotesize}
-  \begin{tabular}{ll}
-    2023      & Insper, São Paulo, Brazil\\
-	      & Teaching assistant of Bayesian Econometrics\\
-	      & Professor: Hedibert Freitas Lopes\\
-    2022      & Insper, São Paulo, Brazil\\
-	      & Teaching assistant of Bayesian Learning\\
-	      & Professor: Hedibert Freitas Lopes\\
-    2019      & Universidade de São Paulo, USP, São Paulo, Brazil\\
-	      & Teaching assistant of Macroeconomics 1\\
-	      & Professor: Rudinei Toneto Júnior\\
-    2019      & Universidade de São Paulo, USP, São Paulo, Brazil\\
-	      & Teaching assistant of Introduction to Macroeconomics\\
-	      & Professor: Rudinei Toneto Júnior\\
-    2015      & Universidade de Brasília, UnB, Brasília, Brasil\\
-	      & Teaching assistant of Economic Formation of Brazil\\
-	      & Professor: Flávio Rabelo Versiani
-  \end{tabular}
-\end{footnotesize}
+\entry{2023}{Insper, São Paulo, Brazil}{%
+  Teaching assistant of Bayesian Econometrics\\
+  Professor: Hedibert Freitas Lopes}
+\entry{2022}{Insper, São Paulo, Brazil}{%
+  Teaching assistant of Bayesian Learning\\
+  Professor: Hedibert Freitas Lopes}
+\entry{2019}{Universidade de São Paulo, USP, São Paulo, Brazil}{%
+  Teaching assistant of Macroeconomics 1\\
+  Professor: Rudinei Toneto Júnior}
+\entry{2019}{Universidade de São Paulo, USP, São Paulo, Brazil}{%
+  Teaching assistant of Introduction to Macroeconomics\\
+  Professor: Rudinei Toneto Júnior}
+\entry{2015}{Universidade de Brasília, UnB, Brasília, Brasil}{%
+  Teaching assistant of Economic Formation of Brazil\\
+  Professor: Flávio Rabelo Versiani}
 
-\section*{Technical skills}
+\section{Technical skills}
 \label{sec:orgc51371c}
 Advanced R, intermediate Stata, basic SQL, basic Python
-\section*{Language}
+
+\section{Language}
 \label{sec:orgf2accdc}
 Native Portuguese, fluent English
 \end{document}
