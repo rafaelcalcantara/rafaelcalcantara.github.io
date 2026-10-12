@@ -87,6 +87,7 @@ contact:
   Teaching assistant of Bayesian Learning\\
   Professor: Hedibert Freitas Lopes
 
+<!--
 2019
 : Universidade de São Paulo, USP, São Paulo, Brazil\\
   Teaching assistant of Macroeconomics 1\\
@@ -101,6 +102,7 @@ contact:
 : Universidade de Brasília, UnB, Brasília, Brasil\\
   Teaching assistant of Economic Formation of Brazil\\
   Professor: Flávio Rabelo Versiani
+-->
 
 ## Technical skills
 
