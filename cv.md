@@ -22,8 +22,8 @@ contact:
   Sponsor: P. Richard Hahn
 
 2022
-: Insper, São Paulo, Brazil\\
-  Research Assistant\\
+: Research Assistant\\
+  Insper, São Paulo, Brazil\\
   Supervisors: Naércio Aquino Menezes Filho, Camila de Freitas Souza Campos
 
 ## Education
