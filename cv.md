@@ -53,7 +53,7 @@ contact:
 1. **[R&D Elasticity in Brazilian Manufacturing and Spillovers - An Unobserved Common Factors Approach](https://revistas.usp.br/ecoa/pt_BR/article/view/190655/214830)** with Sergio Kannebley Jr.\\
   Brazilian Journal of Applied Economics, 2024
 
-## Preprints/Submitted
+## Preprints
 
 1. **[Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs](https://arxiv.org/abs/2407.14365)** with Meijia Wang, P. Richard Hahn and Hedibert F. Lopes
 
@@ -103,6 +103,9 @@ contact:
   Teaching assistant of Economic Formation of Brazil\\
   Professor: Flávio Rabelo Versiani
 -->
+
+## Refereeing
+Journal of Applied Econometrics, Journal of Computational and Graphical Statistics, Applied Economics Letters, Statistics in Medicine
 
 ## Technical skills
 
